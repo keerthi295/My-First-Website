@@ -1,0 +1,47 @@
+body{
+    background-image: url(contactbd02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+.left-side{
+    display: flex;
+}
+.nav-wrapper > .left-side > div{
+margin-right: 20px;
+font-size: 0.9em;
+text-transform: uppercase;
+}
+.nav-link{
+height: 22px;
+border-bottom: 1px solid transparent;
+transition: border-bottom 0.5s;
+}
+
+.nav-link a{
+color: #c64756;
+text-decoration: none;
+transition: color 0.5s;
+}
+.nav-link :hover{
+border-bottom: 1.5px solid #5f2530;
+
+}
+.nav-link a:hover{
+color: #5f232f;
+}
+.right-side{
+text-align: right;
+font-family: cursive;
+color: #5f939a;
+}
